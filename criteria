@@ -1,0 +1,57 @@
+Task 1: Update the README.md in your GitHub repository with the project name and all required project details. – 1 point
+
+Task 2: Run your Django development server and verify that it starts without errors. – 1 point
+
+Task 3: Update About.html with valid CSS links and realistic content including images, names, roles, descriptions, and email IDs. – 3 points
+
+Task 4: Update Contact.html with working CSS links, active navigation, required images, and complete contact details. – 2 points
+
+Task 5: Test the login endpoint using valid credentials and ensure the request succeeds. – 2 points
+
+Task 6: Test the logout endpoint and confirm that the logout operation succeeds. – 2 points
+
+Task 7: Build the Sign-Up page (Register.jsx) with fields for Username, First Name, Last Name, Email, Password, and a working Register button. – 1 points
+
+Task 8: Retrieve review data for any dealer ID using the correct endpoint and confirm that the expected reviews load. – 2 points
+
+Task 9: Retrieve the list of all dealers using the backend endpoint and confirm the returned data is correct. – 2 points
+
+Task 10: Retrieve information for a specific dealer using a dealer ID and confirm accuracy of the response. – 2 points
+
+Task 11: Retrieve dealers located in Kansas using the appropriate endpoint and verify the filtered results. – 2 points
+
+Task 12: Log in to the Django admin with the root user and confirm access is successful. – 2 points
+
+Task 13: Log out from the Django admin page and confirm the logout action works. – 1 point
+
+Task 14: Retrieve car makes using the backend endpoint and confirm the list displays properly. – 2 points
+
+Task 15: Retrieve car models using the backend endpoint and confirm the list displays properly. – 2 points
+
+Task 16: Run sentiment analysis for the text "Fantastic services" and verify that the result includes the correct sentiment. – 2 points
+
+Task 17: Open the Django home page before logging in and confirm that the dealers list displays correctly. – 1 point
+
+Task 18: Log in to the Django application and verify the dealers page shows your username and the Review Dealer option. – 2 points
+
+Task 19: Filter dealers by state in the UI and verify that the results update based on the selected state. – 2 points
+
+Task 20: Open the dealer details page and confirm that dealer information and reviews load correctly. – 1 point
+
+Task 21: Open the Add Review page and ensure the full form is displayed before submitting a review. – 1 point
+
+Task 22: Submit a new review and verify that it appears correctly in the review list. – 2 points
+
+Task 23: Run your GitHub Actions workflow and confirm that all steps execute successfully. – 3 points
+
+Task 24: Deploy your Django application and ensure that the deployment loads without issues. – 1 point
+
+Task 25: Open the deployed landing page and verify that it loads correctly with the expected content. – 2 points
+
+Task 26: Log in to the deployed site and confirm that your username appears on the logged-in page. – 2 points
+
+Task 27: Open the deployed dealer details page and verify that all dealer data displays correctly. – 2 points
+
+Task 28: Verify that a newly added review appears correctly in the deployed application. – 2 points
+
+
