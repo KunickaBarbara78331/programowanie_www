@@ -124,3 +124,63 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+/* ===== About Us page ===== */
+.about-page{
+  width: 90%;
+  max-width: 1200px;
+  margin: 3rem auto;
+}
+
+.about-intro{
+  max-width: 70ch;
+  margin: 0.5rem auto 2.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Cards: equal height, wrap to fewer columns on narrow screens */
+.about-team{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+}
+.about-team .card{
+  flex: 1 1 250px;
+  max-width: 360px;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.about-team .card-body{
+  display: flex;
+  flex-direction: column;
+}
+.about-team .title{
+  margin: 0 0 0.25rem;
+}
+/* Email pinned to the bottom of each card */
+.about-team .card-body p:last-child{
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+/* Uniform person photos regardless of original size */
+.person-img{
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.person-role{
+  text-align: center;
+  font-size: 0.95rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
