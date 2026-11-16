@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Best Cars</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" aria-current="page" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="contact-page">
+    <header class="contact-header">
+      <h1>Contact Us</h1>
+      <p class="contact-lead">Looking for your next car, booking a service or asking about financing? Reach out the way that suits you best. We usually reply within one business day.</p>
+    </header>
+
+    <section class="contact-hero" aria-labelledby="contact-hero-title">
+      <img src="/static/contactus.png" alt="" class="contact-hero-icon">
+      <div>
+        <h2 id="contact-hero-title">Talk to our team</h2>
+        <p>Our advisors are happy to answer any question about our cars, test drives and offers.</p>
+        <a class="contact-phone-big" href="tel:+15550123456">+1 (555) 012-3456</a>
+        <p class="contact-muted">Mon&ndash;Fri 9:00&ndash;19:00 &middot; Sat 10:00&ndash;16:00</p>
+      </div>
+    </section>
+
+    <section class="contact-channels" aria-label="Ways to contact us">
+      <article class="contact-card">
+        <h3>Visit our showroom</h3>
+        <address>
+          Best Cars Dealership<br>
+          1250 Maple Avenue<br>
+          Springfield, IL 62704<br>
+          United States
+        </address>
+        <p class="contact-muted">Free customer parking on site.</p>
+      </article>
+
+      <article class="contact-card">
+        <h3>Call us</h3>
+        <p><a href="tel:+15550123456">+1 (555) 012-3456</a></p>
+        <p class="contact-muted">Toll-free: <a href="tel:+18005550199">1-800-555-0199</a></p>
+      </article>
+
+      <article class="contact-card">
+        <h3>Write to us</h3>
+        <p><a href="mailto:hello@bestcars.example">hello@bestcars.example</a></p>
+        <p class="contact-muted">We reply within 24 hours on business days.</p>
+      </article>
+    </section>
+
+    <section class="contact-details">
+      <div class="contact-panel">
+        <h2>Departments</h2>
+        <table class="contact-table">
+          <thead>
+            <tr><th scope="col">Department</th><th scope="col">Phone</th><th scope="col">Email</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sales</th>
+              <td><a href="tel:+15550123401">(555) 012-3401</a></td>
+              <td><a href="mailto:sales@bestcars.example">sales@bestcars.example</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Service &amp; repairs</th>
+              <td><a href="tel:+15550123402">(555) 012-3402</a></td>
+              <td><a href="mailto:service@bestcars.example">service@bestcars.example</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Finance &amp; leasing</th>
+              <td><a href="tel:+15550123403">(555) 012-3403</a></td>
+              <td><a href="mailto:finance@bestcars.example">finance@bestcars.example</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="contact-panel">
+        <h2>Opening hours</h2>
+        <dl class="contact-hours">
+          <dt>Monday &ndash; Friday</dt><dd>9:00 &ndash; 19:00</dd>
+          <dt>Saturday</dt><dd>10:00 &ndash; 16:00</dd>
+          <dt>Sunday</dt><dd class="contact-closed">Closed</dd>
+        </dl>
+        <p class="contact-muted">Service department opens at 7:30 on weekdays.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
